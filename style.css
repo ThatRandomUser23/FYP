@@ -1,0 +1,33 @@
+.ingredient{
+    /* Set a fixed size for image */
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    background-image: url('placeholder.png'); /* Placeholder image */
+    background-size: cover;
+    display: inline-block; /* Ensure it takes up space */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    cursor: grab;
+}
